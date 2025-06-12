@@ -6,9 +6,9 @@ This project automates the deployment of a Minecraft server on AWS. We use Terra
 ## Requirements
 
 ### Tools Tool Install
-- Terraform
-- AWS CLI
-- Git
+- Terraform (v1.13.0-dev)
+- AWS CLI (2.27.34)
+- Git (2.46.2.windows1)
 
 ### Project Structure
 
