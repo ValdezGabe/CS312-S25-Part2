@@ -42,7 +42,7 @@ resource "aws_instance" "minecraft" {
   instance_type   = var.instance_type
   security_groups = [aws_security_group.minecraft.name]
   
-  user_data = templatefile("${path.module}/user_data.sh", {
+  user_data = templatefile("${path.module}/minecraft_bootstrap.sh", {
     minecraft_port = var.minecraft_port
   })
   
