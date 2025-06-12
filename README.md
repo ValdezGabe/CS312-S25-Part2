@@ -221,6 +221,7 @@ aws configure set aws_session_token "SUPER-DUPER-LONG-AWS-SESSION-TOKEN"
 #### 1. Clone Repository
 ```
 git clone https://github.com/ValdezGabe/CS312-S25-Part2.git
+cd CS312-S25-Part2
 cd minecraft-server
 ```
 
